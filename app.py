@@ -6,7 +6,7 @@ st.set_page_config(page_title="Student Management Portal", layout="centered")
 st.title("🎓 Student Management Details:heart:")
 
 # Backend API Base URL Configuration
-API_URL = st.sidebar.text_input("Backend API Base URL",value=https://fastapi-orit.onrender.com")
+API_URL = st.sidebar.text_input("Backend API Base URL",value="https://fastapi-orit.onrender.com")
 
 # Navigation Menu
 option = st.sidebar.selectbox(
